@@ -1,9 +1,40 @@
+
 {
-  "chainId": 101,
-  "address": "7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7",
-  "symbol": "USDT",
-  "name": "USDT Sterling",
-  "decimals": 6,
-  "logoURI": "https://raw.githubusercontent.com/tonutilisateur/token-list/main/assets/mainnet/7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7/logo.png",
-  "tags": ["stablecoin", "usd", "sterling", "controlled"]
+  "name": "Sterling SJBC Token List",
+  "logoURI": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/main/logo.png",
+  "tags": {
+    "sovereign-stablecoin": {
+      "name": "Sovereign Stablecoin",
+      "description": "Stablecoin souverain indexé sur l'identité numérique de Sterling Ibrahim Jomany"
+    },
+    "sjbc-usdt": {
+      "name": "USDT Sterling SJBC",
+      "description": "USDT officiel minté par Sterling via SJBC"
+    },
+    "phantom-compatible": {
+      "name": "Phantom Compatible",
+      "description": "Compatible avec les wallets Phantom"
+    }
+  },
+  "tokens": [
+    {
+      "chainId": 101,
+      "address": "7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7",
+      "symbol": "USDT",
+      "name": "USDT (Sterling SJBC)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/main/assets/mainnet/7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7/logo.png",
+      "tags": [
+        "sovereign-stablecoin",
+        "phantom-compatible",
+        "sjbc-usdt"
+      ],
+      "extensions": {
+        "website": "https://instagram.com/label92saintgobain",
+        "explorer": "https://solscan.io/token/7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7",
+        "description": "Stablecoin officiel de Sterling Ibrahim Jomany (SJBC), connecté à son identité numérique. Adossé à ses plateformes certifiées (Instagram, Facebook). Utilisé pour paiements, échanges et preuves souveraines sur Phantom."
+      }
+    }
+  ]
 }
+
