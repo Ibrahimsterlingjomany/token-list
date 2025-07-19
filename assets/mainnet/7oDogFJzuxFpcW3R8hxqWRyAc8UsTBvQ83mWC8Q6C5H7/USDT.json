@@ -1,0 +1,14 @@
+{
+  "chainId": 101,
+  "address": "7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7",
+  "symbol": "USDT",
+  "name": "USDT (Sterling Mint)",
+  "decimals": 9,
+  "logoURI": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/main/assets/mainnet/7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7/logo.png",
+  "tags": ["utility-token", "usdt-custom", "phantom-compatible"],
+  "extensions": {
+    "website": "https://instagram.com/label92saintgobain",
+    "explorer": "https://solscan.io/token/7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7",
+    "description": "USDT privé de Sterling Ibrahim Jomany. Indexé sur valeur souveraine numérique. Stablecoin officiel de la trésorerie Label92 sur Phantom."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Sterling Label92 Token List",
+  "logoURI": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/main/logo.png",
+  "tags": {
+    "utility-token": {
+      "name": "Utility Token",
+      "description": "Token utilitaire souverain"
+    },
+    "usdt-custom": {
+      "name": "USDT Sterling",
+      "description": "USDT personnalisé minté par Sterling"
+    }
+  },
+  "tokens": [
+    {
+      "chainId": 101,
+      "address": "7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7",
+      "symbol": "USDT",
+      "name": "USDT (Sterling Mint)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/main/assets/mainnet/7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7/logo.png",
+      "tags": ["utility-token", "official", "phantom-compatible", "usdt-custom"]
+    }
+  ]
+}
