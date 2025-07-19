@@ -23,11 +23,15 @@
       "name": "USDT (Sterling SJBC)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/main/assets/mainnet/7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7/logo.png",
-      "tags": ["sovereign-stablecoin", "phantom-compatible", "sjbc-usdt"],
+      "tags": [
+        "sovereign-stablecoin",
+        "phantom-compatible",
+        "sjbc-usdt"
+      ],
       "extensions": {
         "website": "https://instagram.com/label92saintgobain",
         "explorer": "https://solscan.io/token/7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7",
-        "description": "Stablecoin officiel de Sterling Ibrahim Jomany (SJBC), connecté à son identité numérique. Adossé à ses plateformes certifiées (Facebook, Instagram, WhatsApp, OpenAI). Utilisé pour paiements, échanges et preuves souveraines sur Phantom."
+        "description": "Stablecoin officiel de Sterling Ibrahim Jomany (SJBC), connecté à son identité numérique. Adossé à ses plateformes certifiées (Instagram, Facebook). Utilisé pour paiements, échanges et preuves souveraines sur Phantom."
       }
     }
   ]
