@@ -1,0 +1,9 @@
+{
+  "chainId": 101,
+  "address": "CMqD45Kq5oukPvaMDhzav5RxJqZb1xME1MmV71CzCeTw",
+  "symbol": "SJBC USDT",
+  "name": "Sterling",
+  "decimals": 9,
+  "logoURI": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafybeiasdyd5lx5jmljxyaq4hb5tmnuy3vn456f3o6zr7n2t45qsjfmtou",
+  "tags": ["stablecoin", "SJBC", "USDT"]
+}
