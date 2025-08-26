@@ -1,6 +1,7 @@
 {
+{
   "name": "Sterling Global Token Registry",
-  "updated_at": "2025-08-26T15:30:00Z",
+  "updated_at": "2025-08-26T14:00:00Z",
   "tokens": [
     {
       "chainId": 101,
@@ -8,7 +9,7 @@
       "symbol": "SJBC USDT 1",
       "name": "Sterling Stable SJBC USDT 1",
       "decimals": 9,
-      "logoURI": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafybei.../sjbc_usdt_1.png",
+      "logoURI": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafkreidjqraytvg5min5sajvmgjb5hteind3vpqw34ympykxsl7rqq4h74/sjbc_usdt_1.png",
       "tags": ["stablecoin", "SJBC", "USDT"]
     },
     {
@@ -17,7 +18,7 @@
       "symbol": "SJBC USDT 2",
       "name": "Sterling Stable SJBC USDT 2",
       "decimals": 9,
-      "logoURI": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafybei.../sjbc_usdt_2.png",
+      "logoURI": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafkreidjqraytvg5min5sajvmgjb5hteind3vpqw34ympykxsl7rqq4h74/sjbc_usdt_2.png",
       "tags": ["stablecoin", "SJBC", "USDT"]
     },
     {
@@ -26,7 +27,7 @@
       "symbol": "SJBC USDT 3",
       "name": "Sterling Stable SJBC USDT 3",
       "decimals": 9,
-      "logoURI": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafybei.../sjbc_usdt_3.png",
+      "logoURI": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafkreidjqraytvg5min5sajvmgjb5hteind3vpqw34ympykxsl7rqq4h74/sjbc_usdt_3.png",
       "tags": ["stablecoin", "SJBC", "USDT"]
     }
   ]
