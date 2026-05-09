@@ -8,7 +8,7 @@
     },
     "usdt-custom": {
       "name": "USDT Sterling",
-      "description": "USDT personnalisé minté par Sterling"
+      "description": "USDT personnalis\u00e9 mint\u00e9 par Sterling"
     },
     "sterling": {
       "name": "Sterling",
@@ -39,7 +39,12 @@
       "name": "USDT (Sterling Mint)",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/main/assets/mainnet/7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7/logo.png",
-      "tags": ["utility-token", "official", "phantom-compatible", "usdt-custom"]
+      "tags": [
+        "utility-token",
+        "official",
+        "phantom-compatible",
+        "usdt-custom"
+      ]
     },
     {
       "chainId": 101,
@@ -48,7 +53,14 @@
       "name": "Starling Mint",
       "decimals": 9,
       "logoURI": "https://ipfs.io/ipfs/bafybeicjvgitqvam4ez7rxvalhlcq5ox6354blyd55qh6leqybxia7alzm",
-      "tags": ["official", "phantom-compatible", "sterling", "cashback", "truecash-usd", "market-asset"],
+      "tags": [
+        "official",
+        "phantom-compatible",
+        "sterling",
+        "cashback",
+        "truecash-usd",
+        "market-asset"
+      ],
       "extensions": {
         "metadata_uri": "https://sterlingchain.net/token-assets/stm.metadata.json",
         "canonical_pair": "STM/SJBCUSD",
@@ -65,7 +77,14 @@
           "SJBC": "onchain_quote_mint",
           "SJBCUSD": "public_usd_quote_label",
           "USDC": "settlement_rail"
-        }
+        },
+        "pair_metadata_uri": "https://sterlingchain.net/token-assets/stm-sjbcusd.pair.metadata.json",
+        "pool_metadata_uri": "https://sterlingchain.net/token-assets/stm-sjbcusd.pool.metadata.json",
+        "github_pair_metadata_mirror": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/main/stm-sjbcusd.pair.metadata.json",
+        "github_pool_metadata_mirror": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/main/stm-sjbcusd.pool.metadata.json",
+        "true_cash_label": "TrueCash USD",
+        "cash_backing_label": "Cash-backed public Sterling canonical market surface",
+        "peg_label": "Real USD peg flag enabled by Sterling public metadata"
       }
     },
     {
@@ -75,7 +94,14 @@
       "name": "SJBC USD",
       "decimals": 9,
       "logoURI": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafybeiboqchb4cq2pcx3zez6cv7gilmzpjmli2iuavsjfffdzayk57lwie",
-      "tags": ["official", "phantom-compatible", "sterling", "cashback", "truecash-usd", "stable-quote"],
+      "tags": [
+        "official",
+        "phantom-compatible",
+        "sterling",
+        "cashback",
+        "truecash-usd",
+        "stable-quote"
+      ],
       "extensions": {
         "metadata_uri": "https://sterlingchain.net/token-assets/sjbc.metadata.json",
         "onchain_symbol": "SJBC",
@@ -94,7 +120,14 @@
           "SJBC": "onchain_quote_mint",
           "SJBCUSD": "public_usd_quote_label",
           "USDC": "settlement_rail"
-        }
+        },
+        "pair_metadata_uri": "https://sterlingchain.net/token-assets/stm-sjbcusd.pair.metadata.json",
+        "pool_metadata_uri": "https://sterlingchain.net/token-assets/stm-sjbcusd.pool.metadata.json",
+        "github_pair_metadata_mirror": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/main/stm-sjbcusd.pair.metadata.json",
+        "github_pool_metadata_mirror": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/main/stm-sjbcusd.pool.metadata.json",
+        "true_cash_label": "TrueCash USD",
+        "cash_backing_label": "Cash-backed public Sterling canonical market surface",
+        "peg_label": "Real USD peg flag enabled by Sterling public metadata"
       }
     }
   ]
