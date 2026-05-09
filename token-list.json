@@ -9,6 +9,26 @@
     "usdt-custom": {
       "name": "USDT Sterling",
       "description": "USDT personnalisé minté par Sterling"
+    },
+    "sterling": {
+      "name": "Sterling",
+      "description": "Sterling public market and treasury semantics"
+    },
+    "cashback": {
+      "name": "Cashback",
+      "description": "Cash-backed and cashback-aware public token semantics"
+    },
+    "truecash-usd": {
+      "name": "TrueCash USD",
+      "description": "Sterling public TrueCash USD semantics"
+    },
+    "market-asset": {
+      "name": "Market Asset",
+      "description": "Canonical Sterling market asset"
+    },
+    "stable-quote": {
+      "name": "Stable Quote",
+      "description": "Canonical Sterling stable quote asset"
     }
   },
   "tokens": [
@@ -20,6 +40,62 @@
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/Ibrahimsterlingjomany/token-list/main/assets/mainnet/7oDogFJzuxFpcW3R8hxqWRyAc8UsTBvQ83mWC8Q6C5H7/logo.png",
       "tags": ["utility-token", "official", "phantom-compatible", "usdt-custom"]
+    },
+    {
+      "chainId": 101,
+      "address": "9kued2JXgVk5dzvtipsTdXfBMWihy1E55TwMiXchCoAb",
+      "symbol": "STM",
+      "name": "Starling Mint",
+      "decimals": 9,
+      "logoURI": "https://ipfs.io/ipfs/bafybeicjvgitqvam4ez7rxvalhlcq5ox6354blyd55qh6leqybxia7alzm",
+      "tags": ["official", "phantom-compatible", "sterling", "cashback", "truecash-usd", "market-asset"],
+      "extensions": {
+        "metadata_uri": "https://sterlingchain.net/token-assets/stm.metadata.json",
+        "canonical_pair": "STM/SJBCUSD",
+        "program_id": "7v9sLrk92NNLLUfXLJw3o7MycZNvwsTK6kLWfWb8vcVA",
+        "pool_id": "BbvR4zUAwZF8LmVFLXNpDy3CxuYcDwd5isoh7CZFAF5G",
+        "true_cash_usd": true,
+        "cash_backed": true,
+        "real_peg": true,
+        "website": "https://sterlingchain.net",
+        "public_explainer_title": "STM est l'actif de marche, de profondeur et d'execution.",
+        "public_explainer": "STM (Starling Mint) est l'actif communautaire fondateur de l'ecosysteme Sterling. Ne d'une logique d'audience, d'interaction sociale, de visibilite et de communaute active depuis 2016, STM incarne une economie d'image, de message, de reseau et d'engagement liee aux univers Instagram, Facebook, social et trading. Son identite visuelle et son embleme portent une histoire de presence numerique, de communaute active et de circulation de valeur dans l'univers social et trading.",
+        "roles": {
+          "STM": "base_asset",
+          "SJBC": "onchain_quote_mint",
+          "SJBCUSD": "public_usd_quote_label",
+          "USDC": "settlement_rail"
+        }
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EsNo61QodqHCRjkTGJDeqyK7N4Hunip5PaTYbpPZEsG2",
+      "symbol": "SJBCUSD",
+      "name": "SJBC USD",
+      "decimals": 9,
+      "logoURI": "https://white-persistent-silkworm-971.mypinata.cloud/ipfs/bafybeiboqchb4cq2pcx3zez6cv7gilmzpjmli2iuavsjfffdzayk57lwie",
+      "tags": ["official", "phantom-compatible", "sterling", "cashback", "truecash-usd", "stable-quote"],
+      "extensions": {
+        "metadata_uri": "https://sterlingchain.net/token-assets/sjbc.metadata.json",
+        "onchain_symbol": "SJBC",
+        "public_symbol": "SJBCUSD",
+        "canonical_pair": "STM/SJBCUSD",
+        "program_id": "7v9sLrk92NNLLUfXLJw3o7MycZNvwsTK6kLWfWb8vcVA",
+        "pool_id": "BbvR4zUAwZF8LmVFLXNpDy3CxuYcDwd5isoh7CZFAF5G",
+        "true_cash_usd": true,
+        "cash_backed": true,
+        "real_peg": true,
+        "website": "https://sterlingchain.net",
+        "public_explainer_title": "SJBCUSD est le rail de settlement stable de Sterling.",
+        "public_explainer": "SJBCUSD porte la reference economique de reglement. Son role est de garder une lecture USD stable, bridge-backed et exploitable pour la treasury, les claims, les proofs et les futures sorties vers USDC ou USDT.",
+        "roles": {
+          "STM": "base_asset",
+          "SJBC": "onchain_quote_mint",
+          "SJBCUSD": "public_usd_quote_label",
+          "USDC": "settlement_rail"
+        }
+      }
     }
   ]
 }
